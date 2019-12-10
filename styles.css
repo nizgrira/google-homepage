@@ -2,7 +2,7 @@
   padding-right: 15px;
 }
 
-.link {
+.link{
   color: rgba(0, 0, 0, 0.87);
   text-decoration: none;
   line-height: 24px;
@@ -13,7 +13,7 @@
   text-decoration: underline;
 }
 
-.apps {
+.apps{
   background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
   background-position-x: -132px;
   background-position-y: -38px;
@@ -28,7 +28,7 @@
   opacity: .85;
 }
 
-.account {
+.account{
   background-image: url(https://lh3.googleusercontent.com/-84OFCmmuyq0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcyiMbx2JplxCl0Mx84Og1diwF1eQ.CMID/s32-c/photo.jpg);
   margin: -1px;
   width: 32px;
@@ -38,20 +38,224 @@
   vertical-align: middle;
 }
 
-.nav {
+.nav{
   float: right;
   display: flex; 
   min-width: 181px;
   padding-left: 30px; 
-  padding-right: 22px; 
+  padding-right: 30px; 
   width: 181.594px; 
   height: 30px; 
   align-items: center;
-  top: 8px;
+  top: 16px;
   position: relative;
 }
 
-body, p, a {
+.logo{
+  padding-top:156px;
+  text-align: center;
+}
+
+.searchform{
+  width: 482px;
+  margin: 0 auto;
+  padding-top: 22px;
+  height: 46px;
+  display: flex;
+}
+
+.forminput{
+  display: flex;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  height:44px;
+  margin-right: 24px;
+}
+
+.forminput:hover{
+  border-color: rgba(223, 225, 229, 0);
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+
+.search_icon{
+  color: #9aa0a6;
+  fill: currentColor;
+  height: 20px;
+  width: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 14px;
+}
+
+.query_input{
+  border: none;
+  margin: 0;
+  font: 16px arial,sans-serif;
+  line-height: 34px;
+  width: 433px;
+  background-color: transparent;
+  color: rgba(0, 0, 0, .87);
+  outline: none;
+  padding-left: 13px;
+}
+
+.voice_search{
+  border: 1px solid #dadce0;
+  border-radius: 74%;
+  margin-right: 10px;
+  padding: 10px;  
+  display: flex;
+  cursor: pointer;
+}
+
+.voice_search:hover{
+  box-shadow: 0 1px 4px 0 rgba(32,33,36,0.28);
+  border-color: transparent;
+}
+
+.search_buttons{
+  width: 487px;
+  margin: 0 auto;
+  padding-top: 18px;
+  display: flex;
+  height: 70px;
+  text-align: center;
+  justify-content: center;
+}
+
+.search_button{
+  text-align: center;
+  display: flex;
+  color: #1a73e8;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  padding: 0 24px;
+  margin: 11px 4px;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  background: white;
+  height: 36px;
+  width: 143px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.search_button:hover{
+  background: #e8f0fe;
+}
+
+.lucky_button{
+  text-align: center;
+  display: flex;
+  color: #1a73e8;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 0 24px;
+  margin: 11px 4px;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  background: white;
+  height: 36px;
+  width: 158.5px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.lucky_button:hover{
+  background: #e8f0fe;
+  border-color: #e8f0fe;
+}
+
+.mic_icon{
+  background: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+  background-size: 24px;
+  display: flex;
+  width: 24px;
+}
+
+.offered{
+  margin-bottom: 24px;
+  display: block;
+  font-size: 13px;
+  line-height: 28px;
+  color: rgb(34, 34, 34);
+  text-align: center;
+}
+
+.offered a{
+  text-decoration-line: none;
+}
+
+.offered a:hover{
+  text-decoration-line: underline;
+}
+
+.offered a:visited{
+  columns: #660099;
+}
+
+.footer_1{
+  background-color: rgb(242, 242, 242);
+  padding-left: 27px;
+  color: rgba(0, 0, 0, .54);
+  display: flex;
+  text-align: left;
+  line-height: 40px;
+  font-size: 15px;
+  font-family: arial,sans-serif;
+  border-top-color: rgb(228, 228, 228);
+  border-top-style: solid;
+  border-top-width: 1px;
+  bottom: 41px;
+  position:absolute;
+  right: 0px;
+  left: 0px;
+}
+
+.footer_2{
+  background-color: rgb(242, 242, 242);
+  padding-left: 27px;
+  color: rgba(0, 0, 0, .54);
+  display: block;
+  text-align: left;
+  line-height: 40px;
+  font-size: 13px;
+  font-family: arial,sans-serif;
+  border-top-color: rgb(228, 228, 228);
+  border-top-style: solid;
+  border-top-width: 1px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;  
+  position:absolute;
+  margin-left: -27px;
+}
+
+.footer_2 a{
+  padding-left: 27px;
+  text-decoration: none;
+  color: rgb(95, 99, 104);
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.footer_2 a:hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(95, 99, 104) ;
+}
+
+.privacy_etc{
+  display: block;
+  float:right;
+  margin-right: 30px;
+}
+
+body, p, a{
   font-family: arial,sans-serif;
   color: #222;
+}
+
+body{
+  margin: 0;
 }
